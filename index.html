@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniEvent - Event Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>UniEvent</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#" class="active">Event</a>
+            <a href="#">Login</a>
+            <a href="#">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Upcoming Events</h2>
+        <p class="intro">Explore and register for university events.</p>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search event...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="eventContainer" class="event-container"></div>
+
+        <p id="message"></p>
+
+        <section class="my-events">
+            <h2>My Registered Events</h2>
+            <ul id="registeredEvents"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>UniEvent - University Event Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
